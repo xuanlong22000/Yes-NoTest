@@ -1,0 +1,33 @@
+.namePlayer {
+    text-align: left;
+    font-size: 30px;
+}
+
+.answerCard {
+    text-align: left;
+    margin: 43px;
+}
+
+.answerWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.answer {
+    margin-top: 30px;
+}
+
+.btnSubmitWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hiddenAnswer {
+    display: none;
+}
+
+.hiddenSkeleton {
+    display: none !important;
+}

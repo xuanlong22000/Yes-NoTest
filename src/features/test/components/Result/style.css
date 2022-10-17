@@ -1,0 +1,34 @@
+.FinalResult {
+    display: flex;
+    justify-content: center;
+}
+
+.textFinal {
+    font-size: 40px;
+    background: silver;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.input-search-result {
+    width: 350px;
+    height: 35px;
+}
+
+.wrapper-table {
+    padding: 50px;
+}
+
+.btn-next-question {
+    display: flex;
+    justify-content: center;
+}
+
+.tableResultWrapper {
+    margin-top: 40px;
+}
+
+.theWinner {
+    margin-top: 30px;
+    font-size: 30px;
+}

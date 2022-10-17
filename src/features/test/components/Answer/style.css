@@ -1,0 +1,29 @@
+.resultWrapper {
+    display: flex;
+}
+
+.result {
+    margin-right: 40px;
+}
+
+.btnSummary {
+    display: flex;
+    justify-content: center;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnGoodLuck {
+    background-color: silver;
+    width: 166px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
