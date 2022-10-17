@@ -1,11 +1,10 @@
-import {
-  Paper,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-} from "@mui/material";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSort } from "@fortawesome/free-solid-svg-icons";
@@ -50,7 +49,7 @@ const Result = () => {
 
         <div style={{ marginTop: "30px" }}>
           <TableContainer component={Paper}>
-            <TableContainer sx={{ minWidth: 650 }} aria-label="simple table">
+            <Table sx={{ minWidth: 650 }} aria-label="simple table">
               <TableHead>
                 <TableRow>
                   <TableCell style={{ userSelect: "none" }}>
@@ -96,7 +95,7 @@ const Result = () => {
                   </TableRow>
                 ))}
               </TableBody>
-            </TableContainer>
+            </Table>
           </TableContainer>
         </div>
         <div className="theWinner">
