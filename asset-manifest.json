@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Yes-NoTest/static/css/main.1faa8b0e.css",
+    "main.js": "/Yes-NoTest/static/js/main.a9668cc6.js",
+    "index.html": "/Yes-NoTest/index.html",
+    "main.1faa8b0e.css.map": "/Yes-NoTest/static/css/main.1faa8b0e.css.map",
+    "main.a9668cc6.js.map": "/Yes-NoTest/static/js/main.a9668cc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1faa8b0e.css",
+    "static/js/main.a9668cc6.js"
+  ]
+}
