@@ -39,7 +39,7 @@ const GameScreen = () => {
       },
     ]);
   };
-
+  console.log("answer", answer);
   const handleSelectNo = (roundItem) => {
     setAnswer([
       ...answer,
